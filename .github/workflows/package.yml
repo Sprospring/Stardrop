@@ -83,7 +83,7 @@ jobs:
 
           cp ${GITHUB_WORKSPACE}/Stardrop/Assets/Stardrop.sh Stardrop.sh
 
-          chmod 955 ../Stardrop
+          chmod 755 ../Stardrop
           chmod +x Stardrop.sh
           chmod 644 Internal
           chmod 644 Internal.pdb
